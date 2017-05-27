@@ -1,6 +1,6 @@
 #!/bin/sh
 
-CONTAINER_IMAGE=${CONTAINER_IMAGE:-nextthingco/chiptainer_alpine}
+CONTAINER_IMAGE=${CONTAINER_IMAGE:-modelb/chiptainer_alpine}
 
 ROOTFS_URL=${ROOTFS_URL:-https://nl.alpinelinux.org/alpine/v3.5/releases/armhf/alpine-minirootfs-3.5.0-armhf.tar.gz}
 QEMU_STATIC_URL=${QEMU_STATIC_URL:-http://kaplan2539.gitlab.io/baumeister/qemu-arm-static.tar.gz}
